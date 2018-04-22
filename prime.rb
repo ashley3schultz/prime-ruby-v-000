@@ -1,3 +1,3 @@
 def prime?(array)
-  array.each {|ea|}
+  array.each {|ea| ea % 2}
 end
