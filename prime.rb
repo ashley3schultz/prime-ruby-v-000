@@ -1,8 +1,11 @@
 def prime?(number)
-  f = 2
-  t = number - 1
-  range = [f..t]
-  
-  primes.none? {|ea|
-    num % ea == 0}
+  if number < 2 
+    FALSE
+  elsif
+    f = 2
+    t = number - 1
+    range = [f..t].none? {|ea| number % ea == 0}
+  else
+    FALSE
+  end
 end
