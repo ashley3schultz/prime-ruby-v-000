@@ -4,7 +4,7 @@ def prime?(number)
   elsif
     t = number - 1
     range = (2..t).to_a
-    if (2..t).none? {|ea| number % ea
+    if (2..t).none? {|ea| number % ea}
       prime = TRUE
     else
       prime = FALSE
