@@ -7,7 +7,7 @@ def prime?(number)
     if (2..t).none? {|ea| (number % ea >= 0)}
       prime = TRUE
     else
-      prime = TRUE
+      prime = FALSE
     end
   end
   prime
