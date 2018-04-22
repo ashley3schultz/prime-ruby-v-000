@@ -3,7 +3,7 @@ def prime?(number)
     FALSE
   elsif
     t = number - 1
-    range = [2..t]
+    range = (2..t).to_a
     range.any? {|ea| number % ea == 0}
     FALSE
   else
