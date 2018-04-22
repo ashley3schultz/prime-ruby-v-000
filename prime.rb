@@ -9,6 +9,7 @@ def prime?(number)
     else
       prime = FALSE
     end
+    prime
   end
   prime
 end
