@@ -1,9 +1,8 @@
 def prime?(number)
-  number.each {|num|
   f = 2
-  t = num - 1
-  primes = [f..t]
+  t = number - 1
+  range = [f..t]
   
-  primes.any? {|ea|
-    num % ea == 0}}
+  primes.none? {|ea|
+    num % ea == 0}
 end
